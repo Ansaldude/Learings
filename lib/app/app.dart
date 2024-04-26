@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_project/screen/calculator_screen.dart';
+import 'package:my_project/screen/rows_column_screen.dart';
 // import 'package:my_project/screen/column_screen.dart';
 // import 'package:my_project/screen/dashboard_screen.dart';
 
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CalculatorScreen(),
+      home: RowsAndColumnScreen(),
     );
   }
 }
