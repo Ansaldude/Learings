@@ -26,7 +26,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         backgroundColor: Colors.blue,
         elevation: 0,
       ),
+
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+
+
       body: Form(
         key: myKey,
         child: Column(
