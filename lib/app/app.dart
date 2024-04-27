@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:my_project/screen/rows_column_screen.dart';
+import 'package:my_project/screen/flexible_expanded_screen.dart';
 
 // import 'package:my_project/screen/column_screen.dart';
 // import 'package:my_project/screen/dashboard_screen.dart';
@@ -11,7 +10,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: RowsAndColumnScreen(),
+      home: FlexibleExpandedScreen(),
     );
   }
 }

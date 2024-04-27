@@ -26,14 +26,15 @@ class ContainerScreen extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           alignment: Alignment.centerRight,
-          child: const Text('Hello',
+          color: Colors.amber,
+          child: const Text(
+            'Hello',
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
               color: Colors.black,
             ),
           ),
-          
         ),
       ),
     );
